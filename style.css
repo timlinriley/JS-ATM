@@ -1,0 +1,109 @@
+ .mainBox{
+    border: solid black;
+    padding: 12px;
+    background-color: gray;
+    height: 90vh;
+    width: 68vh;
+    margin: 10px;
+ }
+ 
+ .displayBox{
+    background-color:antiquewhite;
+    border: solid red;
+    height: 48vh;
+    width: 67vh;
+    text-align: center;
+    font-size: 2cm;
+    padding-top: 10%;
+ }
+
+.row1{
+    height: 6vh;
+    width: 68vh;
+    display: flex;
+    justify-content: space-around;
+    cursor: pointer;
+}
+.row2{
+    
+    height: 6vh;
+    width: 68vh;
+    display: flex;
+    justify-content: space-around;
+    cursor: pointer;
+}
+.row3{
+
+    
+    height: 6vh;
+    width: 68vh;
+    display: flex;
+    justify-content: space-around;
+    cursor: pointer;
+}
+.row4{
+    
+    height: 6vh;
+    width: 68vh;
+    display: flex;
+    justify-content: space-around;
+    cursor: pointer;
+
+}
+
+.button{
+    display: flex;
+    justify-content: space-around;
+    border: solid black;
+    height: 100%;
+    width: 33%;
+    padding-top: 8px;
+    font-weight:900;
+    font-size: larger;
+    background-color: aquamarine;
+}
+
+.buttonE{
+    display: flex;
+    justify-content: space-around;
+    border: solid black;
+    height: 100%;
+    width: 33%;
+    padding-top: 8px;
+    font-weight:900;
+    font-size: larger;
+    background-color: aquamarine;
+}
+
+p{
+    font-size: 1cm;
+}
+
+.row5{
+    border: solid black;
+    justify-content: space-around;   
+    height: 100%;
+    width: 33%;
+    margin-top:20px;
+    margin-left: 33%;
+    padding-top: 8px;
+    font-weight:900;
+    font-size: larger;
+    background-color: aquamarine;
+    text-align: center;
+}  
+
+ input{
+    border:solid black;
+    height: 6vh;
+    border-radius: 10%;
+ }
+
+ .withdraw{
+    border:black solid;
+    display: none;
+ }
+ .balance{
+    border:black solid;
+    display: none;
+ }

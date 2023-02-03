@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+      <!-- displayBox -->
+      <div class="mainBox">
+      <div class="displayBox"><p>Welcome. Insert card and<br> enter pin</p>
+        <button class="withdraw" id="button2"> Withdraw </button>
+        <button class="balance" id="button2" onClick="checkBalance()">Show Balance</button>
+        </div>
+      <div class="keyPad"> 
+      <div class="row1">
+            <div class="button" onClick=addToDisplayBox(1)>1</div>
+            <div class="button" onClick=addToDisplayBox(2)>2</div>
+            <div class="button" onClick=addToDisplayBox(3)>3</div>
+        </div>
+        <div class="row2">
+            <div class="button" onClick=addToDisplayBox(4)>4</div>
+            <div class="button" onClick=addToDisplayBox(5)>5</div>
+            <div class="button" onClick=addToDisplayBox(6)>6</div>
+        </div>
+        <div class="row3">
+            <div class="button" onClick=addToDisplayBox(7)>7</div>
+            <div class="button" onClick=addToDisplayBox(8)>8</div>
+            <div class="button" onClick=addToDisplayBox(9)>9</div>
+        </div>
+        <div class="row4">
+            <div class="button" onClick=addToDisplayBox(0)>*</div>
+            <div class="button" onClick=addToDisplayBox(0)>0</div>
+            <div class="button" id="buttonE" onClick="onEnter()">Enter</div>
+        </div>
+        <div class="row5" onClick=clearDisplay()> Clear </div>
+    </div> 
+</div>
+      
+        <!-- in display box:
+        first: insert card
+        second: enter pin :
+            if successful move to step 3
+            if unsuccessul repeate step 2
+        third: choose action (withrdaw or check balance) via button that pops up on screen after successful pin entry
+            3a: enter amount to withdraw
+            3b: display 'success! your fund are being dispensed' if enough balance or  'insufficient funds' if withdraw amount > balance-->
+            <!-- if check balance display user balance -->
+    <!-- keypad -->
+            <!-- keypad to enter pin -->
+        <script src="app.js" ></script>
+    </body>
+</html>
